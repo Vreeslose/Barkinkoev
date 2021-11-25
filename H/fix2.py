@@ -2,9 +2,9 @@ sample
 Чтобы выбрать какое-то количество элементов из набора данных можно воспользоваться функцией sample(х, k)
 
 import random
-seq = [10, 12, 13, 15, 14, 16]
-random_seq = random.sample(seq, 4)
-print(random_seq)
+a = [10, 12, 13, 15, 14, 16]
+a = random.sample(a, 4)
+print(a)
 
 > [10, 12, 11, 14]
 
@@ -13,29 +13,27 @@ shuffle
 
 import random
 
-seq = ["a", "b", "c", "d"]
+a = ["1", "2", "3", "4"]
 random.shuffle(seq)
 print(seq)
 
-> ['c', 'a', 'd', 'b']
+> ['3', '1', '4', '2']
 
 choices 
 С помощью функции choices можно выбрать 1 или несколько элементов из набора данных.
+random import
+a = [20, 30, 40, 50 ,60, 70, 80, 90]
+ a = random.choices(a, k=5)
+ print(a)
 
-import random
-
-seq = [1, 2, 3, 4, 5, 6]
-random_elements = random.choices(seq, k=4)
-print(random_elements)
-
-> [5, 1, 1, 5]
+> [50, 20, 60, 40, 90]
 
 uniform 
 Сгенерировать число с плавающей точкой можно с помощью функции uniform(a, b)
 
 import random
-random_number = random.uniform(1.1, 10.5)
-print(random_number)
+a = random.uniform(1.1, 10.5)
+print(a)
 
 > 10.320165816501492
 
@@ -44,8 +42,8 @@ random
 
 import random
 
-random_number = random.random()
-print(random_number)
+a = random.random()
+print(a)
 
 > 0.47673250896173136
 
@@ -54,8 +52,8 @@ randrange
 
 import random
 
-random_number = random.randrange(1, 100, 2)
-print(random_number)
+a = random.randrange(1, 100, 2)
+print(a)
 
 > 43
 
@@ -64,7 +62,7 @@ randint
 
 import random
 
-random_number = random.randint(0, 125)
-print(random_number)
+a = random.randint(0, 125)
+print(a)
 
 > 113
