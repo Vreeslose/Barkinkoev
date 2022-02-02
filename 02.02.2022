@@ -1,0 +1,18 @@
+1.
+mport math
+a = int(input())
+b = int(input())
+c = math.sqrt(b*b + a*a)
+print(c)
+2.
+print('Hello, ' + input() + '!')
+3. 
+n = int(input())
+print('The next number for the number ' + str(n) + ' is ' + str(n + 1) + '.')
+print('The previous number for the number ' + str(n) + ' is ' + str(n - 1) + '.')
+4.
+n = int(input())
+k = int(input())
+print(k // n)
+print(k % n)
+5.
