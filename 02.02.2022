@@ -16,3 +16,8 @@ k = int(input())
 print(k // n)
 print(k % n)
 5.
+a = int(input()) b = int(input()) print((a * b) % 109)
+6.
+a = int(input()) print(a % 10)
+7.
+n = int(input()) print(n // 10 % 10)
